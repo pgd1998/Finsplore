@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function InfoSection() {
   return (
-    <div className="bg-gradient-to-b from-[#094141] to-[#008080] py-16 text-white">
+    <div id="info-section" className="bg-gradient-to-b from-[#094141] to-[#008080] py-16 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-heading font-semibold mb-4">More Than Just Tracking –</h2>

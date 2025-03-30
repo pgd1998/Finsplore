@@ -50,7 +50,7 @@ export default function FAQSection() {
   ];
 
   return (
-    <div className="bg-[#E5DEFE]/30 py-16">
+    <div className="bg-[#B2F7EF]/30 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-heading font-semibold text-[#094141] mb-8">Frequently Asked Questions</h2>

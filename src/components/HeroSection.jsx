@@ -3,7 +3,6 @@ import React from 'react';
 export default function HeroSection() {
   return (
     <div className="bg-gradient-to-r from-[#094141] to-[#008080] pt-28 pb-20 relative overflow-hidden">
-      {/* Background pattern */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden text-[#CFFDFE]/10 whitespace-nowrap text-xs">
         <div className="animate-marquee">
           Finance Planning AI Smart Insights Finance Planning AI Smart Insights Finance Planning AI Smart Insights Finance Planning

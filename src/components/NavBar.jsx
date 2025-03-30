@@ -48,7 +48,7 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="md:hidden bg-[#094141] pb-4 px-4">
           <a href="/" className="block py-2 text-white hover:text-[#CFFDFE]">Home</a>
-          <a href="/about" className="block py-2 text-white hover:text-[#CFFDFE]">About</a>
+          <a href="#info-section" className="block py-2 text-white hover:text-[#CFFDFE]">About</a>
           <a href="#services" className="block py-2 text-white hover:text-[#CFFDFE]">Services</a>
           <a href="#pricing" className="block py-2 text-white hover:text-[#CFFDFE]">Pricing</a>
           <a href="#how-it-works" className="block py-2 text-white hover:text-[#CFFDFE]">How it works</a>

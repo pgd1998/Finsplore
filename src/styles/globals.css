@@ -4,6 +4,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     font-family: 'Source Sans Pro', system-ui, -apple-system, sans-serif;
     color: #333;

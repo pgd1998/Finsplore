@@ -2,7 +2,9 @@ import React from 'react';
 
 export default function IntroSection() {
   return (
-    <div className="bg-[#F8F8FF] py-16">
+    // #cef5f0
+    // #c4f5ef
+    <div className="bg-[#cef5f0] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-[#008080] mb-6">
