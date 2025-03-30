@@ -1,14 +1,27 @@
 ---
-import Welcome from '../components/Welcome.astro';
+// src/pages/index.astro
 import Layout from '../layouts/Layout.astro';
-import Button from '../components/Buttons.jsx';
-import '../styles/global.css';
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Navbar from '../components/NavBar.jsx';
+import HeroSection from '../components/HeroSection.jsx';
+import IntroSection from '../components/IntroSection.jsx';
+import FeaturesSection from '../components/FeaturesSection.jsx';
+import InfoSection from '../components/InfoSection.jsx';
+import VisionSection from '../components/VisionSection.jsx';
+import FAQSection from '../components/FAQSection.jsx';
+// import TestimonialSection from '../components/TestimonialSection.jsx';
+import ContactSection from '../components/ContactSection.jsx';
+import Footer from '../components/Footer.jsx';
 ---
 
-<Layout>
-	<Welcome />
-<div class="flex justify-center mt-8">
-    <Button text="Click me!" client:load />
-  </div></Layout>
+<Layout title="Finsplore - Financial Freedom Made Simple">
+  <Navbar client:load />
+  <HeroSection client:load />
+  <IntroSection client:load />
+  <FeaturesSection client:load />
+  <InfoSection client:load />
+  <VisionSection client:load />
+  <FAQSection client:load />
+  <!-- <TestimonialSection client:load /> -->
+  <ContactSection client:load />
+  <Footer client:load />
+</Layout>
