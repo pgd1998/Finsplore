@@ -13,11 +13,10 @@ export default function HeroSection() {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2 mb-10 lg:mb-0">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-              Simplify Your Finances with <span className="text-[#CFFDFE]">AI-Driven Insights</span>
+            From goals to growth, Simplify Your Finances with <span className="text-[#CFFDFE]">AI-Driven Insights</span>
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-lg">
-              Stop struggling with complex financial tools. Finsplore helps you manage your money effortlessly with personalized, AI-powered recommendations.
-            </p>
+            Finsplore empowers you to make swift, simplified financial decisions with personalized, AI-driven tools—designed to light the way toward a brighter financial future            </p>
             <div className="flex flex-wrap gap-4">
               <a 
                 href="#get-started" 

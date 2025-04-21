@@ -1,0 +1,196 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/NavBar.jsx';
+import Footer from '../components/Footer.jsx';
+import ContactSection from '../components/ContactSection';
+---
+
+<Layout title="How It Works - Finsplore">
+  <Navbar client:load />
+  
+  <section class="bg-gradient-to-r from-[#094141] to-[#008080] pt-28 pb-20 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">How Finsplore Works</h1>
+      <p class="text-xl text-white/90 max-w-2xl mx-auto">
+        Experience a smarter way to manage your finances with our AI-powered platform.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-white py-16 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-2xl md:text-3xl font-heading font-semibold text-[#094141] mb-6">
+        Here's how Finsplore empowers you every step of the way:
+      </h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        Our intuitive platform guides you through a seamless financial journey, from connecting your accounts to achieving your financial goals.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-[#F8F8FF] py-16 px-4">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <div class="order-2 md:order-1">
+          <div class="bg-white rounded-lg shadow-md p-8 border-l-4 border-[#008080]">
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#008080] text-white font-bold text-xl mb-4">
+                1
+              </div>
+            <h3 class="text-2xl font-heading font-semibold text-[#094141] mb-4">Connect & Customise</h3>
+            <p class="text-gray-600">
+              Securely link your bank accounts and define your financial goals in just a few taps. Our encrypted connection ensures your data remains private and protected.
+            </p>
+            <ul class="mt-4 space-y-2">
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Securely connect multiple accounts</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Set personalized financial goals</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Customize your dashboard</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="order-1 md:order-2 flex justify-center">
+          <div class="bg-[#C5E6FF] w-64 h-64 rounded-full flex items-center justify-center">
+            <div class="bg-white p-4 rounded-2xl shadow-lg w-48 h-48 flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-[#008080]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <div class="flex justify-center">
+          <div class="bg-[#E5DEFE] w-64 h-64 rounded-full flex items-center justify-center">
+            <div class="bg-white p-4 rounded-2xl shadow-lg w-48 h-48 flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-[#008080]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="bg-white rounded-lg shadow-md p-8 border-l-4 border-[#008080]">
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#008080] text-white font-bold text-xl mb-4">
+                2</div>
+            <h3 class="text-2xl font-heading font-semibold text-[#094141] mb-4">Track & Visualise</h3>
+            <p class="text-gray-600">
+              Watch your income, expenses, and net worth unfold in real-time with our interactive dashboard. Get a clear picture of your financial health at a glance.
+            </p>
+            <ul class="mt-4 space-y-2">
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Real-time transaction tracking</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Interactive spending categories</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Dynamic financial reports</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <div class="order-2 md:order-1">
+          <div class="bg-white rounded-lg shadow-md p-8 border-l-4 border-[#008080]">
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#008080] text-white font-bold text-xl mb-4">
+                3</div>
+            <h3 class="text-2xl font-heading font-semibold text-[#094141] mb-4">Predict & Plan</h3>
+            <p class="text-gray-600">
+              Use AI-powered forecasts, goal-based scenario planning, and smart suggestions to map your path to financial freedom. Understand the impact of your decisions before you make them.
+            </p>
+            <ul class="mt-4 space-y-2">
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">AI-driven financial forecasts</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Goal-based scenario planning</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Personalized savings recommendations</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="order-1 md:order-2 flex justify-center">
+          <div class="bg-[#9CDCB7] w-64 h-64 rounded-full flex items-center justify-center">
+            <div class="bg-white p-4 rounded-2xl shadow-lg w-48 h-48 flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-[#008080]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="flex justify-center">
+          <div class="bg-[#CFFDFE] w-64 h-64 rounded-full flex items-center justify-center">
+            <div class="bg-white p-4 rounded-2xl shadow-lg w-48 h-48 flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-[#008080]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="bg-white rounded-lg shadow-md p-8 border-l-4 border-[#008080]">
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#008080] text-white font-bold text-xl mb-4">
+                4</div>
+            <h3 class="text-2xl font-heading font-semibold text-[#094141] mb-4">Learn & Grow</h3>
+            <p class="text-gray-600">
+              Get personalized insights, budgeting tips, and financial guidance right when you need them. Continuously improve your financial habits with our educational resources.
+            </p>
+            <ul class="mt-4 space-y-2">
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Personalized financial insights</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Educational content library</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#008080] mr-2">•</span>
+                <span class="text-gray-600">Smart notifications and reminders</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#008080] py-14 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-2xl md:text-3xl font-heading font-bold text-white mb-6">
+        Ready to Explore a Smarter Financial Future?
+      </h2>
+      <a 
+        href="#get-started" 
+        class="inline-block px-6 py-3 rounded-md bg-white text-[#008080] font-medium hover:bg-[#CFFDFE] transition-colors"
+      >
+        Get Started Today
+      </a>
+    </div>
+  </section>
+
+  <ContactSection client:load/>
+  <Footer client:load />
+</Layout>
