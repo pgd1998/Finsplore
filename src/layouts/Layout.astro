@@ -12,19 +12,22 @@ const { title = 'Finsplore - Financial Freedom Made Simple' } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-	<meta name="generator" content={Astro.generator} />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <meta name="description" content="Finsplore - AI-driven financial insights to simplify your financial journey." />
     
-    <!-- Google Fonts -->
+    <!-- Inter Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Source+Sans+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Performance optimizations -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
   </head>
-  <body>
+  <body class="bg-white">
     <slot />
   </body>
 </html>
