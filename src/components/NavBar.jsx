@@ -21,6 +21,7 @@ export default function Navbar() {
             <a href="#pricing" className="text-white hover:text-[#CFFDFE]">Pricing</a>
             <a href="/how-it-works" className="text-white hover:text-[#CFFDFE]">How it works</a>
             <a href="#contact" className="text-white hover:text-[#CFFDFE]">Contact</a>
+            <a href="/team" className="text-white hover:text-[#CFFDFE]">Team</a>
           </div>
           
           <div className="flex items-center">
@@ -53,6 +54,8 @@ export default function Navbar() {
           <a href="#pricing" className="block py-2 text-white hover:text-[#CFFDFE]">Pricing</a>
           <a href="/how-it-works" className="block py-2 text-white hover:text-[#CFFDFE]">How it works</a>
           <a href="#contact" className="block py-2 text-white hover:text-[#CFFDFE]">Contact</a>
+          <a href="/team" className="block py-2 text-white hover:text-[#CFFDFE]">Team</a>
+
         </div>
       )}
     </nav>

@@ -31,7 +31,7 @@ export default function InfoSection() {
             <div className="md:w-1/2">
               <h3 className="text-2xl font-heading font-semibold mb-4">Total Clarity</h3>
               <p className="text-white/80">
-              See your entire financial life—income, expenses, goals, and growth—on one clean, intuitive dashboard.
+              See your entire financial life - income, expenses, goals, and growth, on one clean, intuitive dashboard.
               </p>
             </div>
             <div className="md:w-1/2 bg-white/10 rounded-lg h-60 flex items-center justify-center">
@@ -67,7 +67,7 @@ export default function InfoSection() {
             <div className="md:w-1/2">
               <h3 className="text-2xl font-heading font-semibold mb-4">Plan with Purpose</h3>
               <p className="text-white/80">
-              Compare 'what-if' scenarios, simulate your financial future, and choose the smartest path to reach your goals faster—with goal-based scenario planning built right in.
+              Compare 'what-if' scenarios, simulate your financial future, and choose the smartest path to reach your goals faster with goal-based scenario planning built right in.
               </p>
             </div>
             <div className="md:w-1/2 bg-white/10 rounded-lg h-60 flex items-center justify-center">

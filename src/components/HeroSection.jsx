@@ -16,7 +16,7 @@ export default function HeroSection() {
             From goals to growth, Simplify Your Finances with <span className="text-[#CFFDFE]">AI-Driven Insights</span>
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-lg">
-            Finsplore empowers you to make swift, simplified financial decisions with personalized, AI-driven tools—designed to light the way toward a brighter financial future            </p>
+            Finsplore empowers you to make swift, simplified financial decisions with personalized, AI-driven tools, designed to light the way toward a brighter financial future            </p>
             <div className="flex flex-wrap gap-4">
               <a 
                 href="#get-started" 
