@@ -1,0 +1,262 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/NavBar.jsx';
+import Footer from '../components/Footer.jsx';
+import ContactSection from '../components/ContactSection';
+---
+
+<Layout title="Meet the Team - Finsplore">
+  <Navbar client:load />
+  
+  <!-- Hero Section with gradient background -->
+  <section class="bg-gradient-to-r from-[#094141] to-[#008080] pt-28 pb-20 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Faces Fueling Finsplore</h1>
+      <p class="text-xl text-white/90 max-w-2xl mx-auto">
+        Meet the minds behind your financial freedom journey.
+      </p>
+    </div>
+  </section>
+
+  <!-- Intro Story Section -->
+  <section class="bg-white py-16 px-4">
+    <div class="max-w-3xl mx-auto">
+      <p class="text-lg text-gray-700 mb-8 leading-relaxed italic">
+        "Finsplore is more than just a fintech platform, it's a vision shaped by bold minds who are young, bold, and believe that financial literacy should be second nature to everyone. We're not just a team, we're a movement in the making. Today, WE are founders, builders, and leaders, all united in the mission to help people take control of their financial future. Based in Melbourne, aiming across the globe!"
+      </p>
+      
+      <div class="bg-[#F8F8FF] p-6 rounded-lg border-l-4 border-[#008080] mt-10">
+        <h3 class="text-2xl font-heading font-semibold text-[#094141] mb-4">Our Mission</h3>
+        <p class="text-gray-700">
+          We're here to change how people approach money, starting with clarity. Finsplore turns financial confusion into confidence with personalized, tech-powered tools that help users track their progress, plan with purpose, and make better decisions every step of the way.
+        </p>
+        <p class="text-gray-700 mt-4">
+          Whether you're just starting out, adapting to a new country, or working toward your dreams, we're building a simpler path to financial independence for you.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TODO: Merge Team page with About page -->
+   <!-- TODO: Tranfer real life to how it works -->
+    <!-- TODO: animation on how it works lines and some other ideas -->
+  <!-- Team Members Grid -->
+  <section class="bg-[#F8F8FF] py-16 px-4">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl font-heading font-semibold text-[#094141] text-center mb-12">Our Team</h2>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Team Member 1 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+          <div class="h-64 bg-[#C5E6FF] flex items-center justify-center overflow-hidden">
+            <img src="/pruthvi.png" alt="Pruthvi Patel" class="object-cover w-full h-full">          </div>
+          <div class="p-6">
+            <div class="flex items-center mb-2">
+              <span class="text-2xl mr-2">🧠</span>
+              <h3 class="text-xl font-heading font-semibold text-[#094141]">Pruthvi Patel</h3>
+            </div>
+            <p class="text-[#008080] font-semibold mb-2">Founding Technical Team</p>
+            <p class="text-gray-600 italic mb-4">"Every problem is a story waiting to be solved with empathy and logic."</p>
+            <div class="text-sm text-gray-500 mb-4">
+              <p>📍 Melbourne</p>
+              <p><strong>Role:</strong> Strategic Vision & Product Execution</p>
+              <p><strong>Background:</strong> Business & Finance</p>
+            </div>
+            <a href="https://www.linkedin.com/in/pruthvi145/" target="_blank" class="inline-flex items-center text-[#0077b5] hover:underline">
+              <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        
+        <!-- Team Member 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+          <div class="h-64 bg-[#E5DEFE] flex items-center justify-center overflow-hidden">
+            <img src="/netra.png" alt="Netra Maheshwari" class="object-cover w-full h-full">
+          </div>
+          <div class="p-6">
+            <div class="flex items-center mb-2">
+              <span class="text-2xl mr-2">🎨</span>
+              <h3 class="text-xl font-heading font-semibold text-[#094141]">Netra Maheshwari</h3>
+            </div>
+            <p class="text-[#008080] font-semibold mb-2">Founding Marketing Team</p>
+            <p class="text-gray-600 italic mb-4">"Great ideas deserve to be seen, heard, and felt."</p>
+            <div class="text-sm text-gray-500 mb-4">
+              <p>📍 Melbourne | 🎓 Former International Student</p>
+              <p><strong>Role:</strong> Brand, Campaigns, Growth</p>
+              <p><strong>Background:</strong> Creative Media & Digital Strategy</p>
+            </div>
+            <a href="https://linkedin.com/" target="_blank" class="inline-flex items-center text-[#0077b5] hover:underline">
+              <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        
+        <!-- Team Member 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+          <div class="h-64 bg-[#9CDCB7] flex items-center justify-center overflow-hidden">
+            <img src="/aarushi.jpg" alt="Aarushi Raichur" class="object-cover w-full h-full">
+          </div>
+          <div class="p-6">
+            <div class="flex items-center mb-2">
+              <span class="text-2xl mr-2">🧩</span>
+              <h3 class="text-xl font-heading font-semibold text-[#094141]">Aarushi Raichur</h3>
+            </div>
+            <p class="text-[#008080] font-semibold mb-2">Founding Product Team</p>
+            <p class="text-gray-600 italic mb-4">"Good design isn't just usable, it's thoughtful, inclusive, and scalable."</p>
+            <div class="text-sm text-gray-500 mb-4">
+              <p>📍 Melbourne | 🎓 Former International Student</p>
+              <p><strong>Role:</strong> UX Strategy & Feature Planning</p>
+              <p><strong>Background:</strong> HCI & Product Management</p>
+            </div>
+            <a href="https://www.linkedin.com/in/aarushiraichur/" target="_blank" class="inline-flex items-center text-[#0077b5] hover:underline">
+              <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        
+        <!-- Team Member 4 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+          <div class="h-64 bg-[#CFFDFE] flex items-center justify-center overflow-hidden">
+            <img src="/poorvith.jpg" alt="Poorvith" class="object-cover w-full h-full">
+          </div>
+          <div class="p-6">
+            <div class="flex items-center mb-2">
+              <span class="text-2xl mr-2">🛠</span>
+              <h3 class="text-xl font-heading font-semibold text-[#094141]">Poorvith</h3>
+            </div>
+            <p class="text-[#008080] font-semibold mb-2">Founding Technical Team</p>
+            <p class="text-gray-600 italic mb-4">"Tech should serve people. Not the other way around."</p>
+            <div class="text-sm text-gray-500 mb-4">
+              <p>📍 Melbourne | 🎓 Former International Student</p>
+              <p><strong>Role:</strong> Architecture & Engineering</p>
+              <p><strong>Background:</strong> Full-Stack Development & AI</p>
+            </div>
+            <a href="https://www.linkedin.com/in/poorvith-gowda/" target="_blank" class="inline-flex items-center text-[#0077b5] hover:underline">
+              <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <!-- Team Member 5 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+          <div class="h-64 bg-[#9CDCB7] flex items-center justify-center overflow-hidden">
+            <img src="/aarushi.jpg" alt="Aarushi Raichur" class="object-cover w-full h-full">
+          </div>
+          <div class="p-6">
+            <div class="flex items-center mb-2">
+              <span class="text-2xl mr-2">🧩</span>
+              <h3 class="text-xl font-heading font-semibold text-[#094141]">Ria Gupta</h3>
+            </div>
+            <p class="text-[#008080] font-semibold mb-2">Founding Product Team</p>
+            <p class="text-gray-600 italic mb-4">"Good design isn't just usable, it's thoughtful, inclusive, and scalable."</p>
+            <div class="text-sm text-gray-500 mb-4">
+              <p>📍 Melbourne | 🎓 Former International Student</p>
+              <p><strong>Role:</strong> UX Strategy & Feature Planning</p>
+              <p><strong>Background:</strong> HCI & Product Management</p>
+            </div>
+            <a href="https://www.linkedin.com/in/aarushiraichur/" target="_blank" class="inline-flex items-center text-[#0077b5] hover:underline">
+              <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <!-- Team Member 6 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+          <div class="h-64 bg-[#9CDCB7] flex items-center justify-center overflow-hidden">
+            <img src="/aarushi.jpg" alt="Aarushi Raichur" class="object-cover w-full h-full">
+          </div>
+          <div class="p-6">
+            <div class="flex items-center mb-2">
+              <span class="text-2xl mr-2">🧩</span>
+              <h3 class="text-xl font-heading font-semibold text-[#094141]">Shubh Utekar</h3>
+            </div>
+            <p class="text-[#008080] font-semibold mb-2">Founding Product Team</p>
+            <p class="text-gray-600 italic mb-4">"Good design isn't just usable, it's thoughtful, inclusive, and scalable."</p>
+            <div class="text-sm text-gray-500 mb-4">
+              <p>📍 Melbourne | 🎓 Former International Student</p>
+              <p><strong>Role:</strong> UX Strategy & Feature Planning</p>
+              <p><strong>Background:</strong> HCI & Product Management</p>
+            </div>
+            <a href="https://www.linkedin.com/in/aarushiraichur/" target="_blank" class="inline-flex items-center text-[#0077b5] hover:underline">
+              <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Letter from the Founders -->
+  <section class="py-16 px-4 bg-white">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-heading font-semibold text-[#094141] mb-2">A Letter from the Founders</h2>
+        <p class="text-lg font-medium text-[#008080]">"We've been there"</p>
+      </div>
+      
+      <div class="bg-[#F8F8FF] p-8 rounded-lg shadow-md border-t-4 border-[#008080]">
+        <p class="text-gray-700 mb-4">
+          Fresh in a new country, juggling studies, side gigs, and the weight of making every dollar stretch. Finance wasn't just about numbers, it was about survival, choices, and dreams that felt just out of reach.
+        </p>
+        <p class="text-gray-700 mb-4">
+          That's why we created <strong class="text-[#094141]">Finsplore</strong>.
+        </p>
+        <p class="text-gray-700 mb-4">
+          As students who made Melbourne our home, we learned the hard way how confusing and overwhelming financial decisions can be, especially when no one ever really taught you how to manage money. So we built the tool we wish we had.
+        </p>
+        <p class="text-gray-700 mb-4">
+          Finsplore is our way of giving back, by simplifying finances for people who are just starting out, building their future, or navigating life with limited resources but big ambitions.
+        </p>
+        <p class="text-gray-700 mb-4">
+          We believe everyone deserves a clear, supportive path to financial independence. With Finsplore, you can track your income, understand your spending, set goals, and finally feel in control of your financial story.
+        </p>
+        <p class="text-gray-700 mb-4">
+          We're not just developers or marketers, we're people just like you, turning lessons into solutions.
+        </p>
+        <p class="text-gray-700 mb-4">
+          Thanks for being part of the journey.
+        </p>
+        <p class="text-gray-700 italic text-right">
+          Warmly, <br>
+          <span class="font-semibold text-[#094141]">The Finsplore Team</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Us CTA -->
+  <section class="bg-[#008080] py-14 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-2xl md:text-3xl font-heading font-bold text-white mb-6">
+        Join us on our mission to transform financial futures
+      </h2>
+      <a 
+        href="#contact" 
+        class="inline-block px-6 py-3 rounded-md bg-white text-[#008080] font-medium hover:bg-[#CFFDFE] transition-colors"
+      >
+        Get Started Today
+      </a>
+    </div>
+  </section>
+
+  <ContactSection client:load/>
+  <Footer client:load />
+</Layout>
